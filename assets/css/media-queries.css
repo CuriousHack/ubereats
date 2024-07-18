@@ -1,0 +1,254 @@
+/* for phone screen 600px   */
+@media (max-width: 600px){
+    body{
+        scroll-behavior: smooth;
+    }
+    header{
+        background-image: url(/assets/images/uberm.webp);
+    }
+    .hamburger{
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .hamburger:hover{
+        cursor: pointer;
+        background-color: white;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    .logo{
+        height: 20px;
+        /* padding: 10px; */
+    }
+    .nav-btn{
+        display: flex;
+    }
+    .user-icon{
+        display: inline;
+        height: 20px;
+        width: 20px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .login-btn{
+        display: none;
+    }
+    
+    .nav-btn button{
+        background-color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 80px;
+        font-weight: 600;
+    }
+    header{
+        background-size: auto 100vh;
+        margin-bottom: 10px;
+    }
+
+    .banner{
+        padding: 0 30px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .banner h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: black;
+    }
+    
+    .form{
+        display: inline;
+        padding: 20px;
+    }
+
+     .delivery-input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+   
+    .delivery-input img{
+        height: 20px;
+        width: 15px;
+        padding: 20px 0 0 15px;
+        position: absolute;
+    }
+     
+    .delivery-input input{
+        padding: 20px 0 20px 50px;
+    }
+    .deliver-now{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .deliver-now img{
+        height: 20px;
+        width: 15px;
+        padding: 20px 0 0 15px;
+        position: absolute;
+      
+    }
+    .deliver-now select{
+        padding: 20px 0 20px 50px;
+    }
+    .deliver-now option {
+        padding-left: 30px; 
+        
+    }
+    .form button{
+        background-color: black;
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        height: 100%;
+        width: 100%;
+        color: white;
+    }
+
+    .get-the-app{
+        display: inline;
+        justify-content: center;
+        margin-top: 10px 0;
+
+    }
+    .more{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        align-items: center;
+    }
+    .more img{
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+    
+    }
+    .app{
+        display: flex;
+    }
+    .app input{
+        width: 90%;
+        padding: 20px 0 20px 10px;
+        margin: 10px 10px 10px 20px;
+        background: rgb(243, 243, 243);
+        border: none;
+        font-weight: 500;
+        font-size: 1rem;
+        position: relative;
+    }
+    .app img{
+        height: 20px;
+        width: 20px;
+        padding: 30px 0 0 30%;
+        position: absolute;
+        z-index: 1;
+    }
+    .get-the-app button:hover{
+        cursor: pointer;
+        opacity: 0.85;
+    }
+
+
+    .sect{
+        margin-top: 50px;
+        display: inline;
+        flex-direction: row;  
+    }
+    .sect-item{
+        /* width: 98vw; */
+        height: 300px;
+        padding: 0px 20px !important;
+    
+    }
+    .sect-item h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: black;
+        /* margin-bottom: -10px; */
+    }
+
+    .map{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+        margin-top: 60px;
+        padding: 0px 20px;
+    
+    }
+    .cities-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 18px;
+        margin-bottom: 20px;
+    }
+    .cities a{
+        display: none;
+    }
+    .cities-2{
+        display: inline;
+    }
+    .cities-2 a{
+        color: black;
+        font-weight: bold;
+    }
+
+    .country-list{
+        display: grid;
+        flex-direction: column;
+        grid-auto-flow: column;
+        grid-template-rows: repeat(15, 1fr);
+        grid-gap: 18px;
+        margin-bottom: 20px;
+    
+    }
+    footer{
+        margin: 10px 0px 0px 10px;
+        width: 100%;
+        /* margin-left: 10px; */
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .download{
+        padding: 30px 0px;
+    }
+    .item-cont{
+        display: flex;
+        flex-direction: column;
+       width: 100%;
+       /* margin-bottom: 30px; */
+    }
+    .footer-items{
+        margin-bottom: 30px;
+    }
+    
+    .soc-link, .link, .footcopy{
+        display: flex;
+        flex-direction: column;
+    }
+    .link a{
+        padding: 0px 0px 10px 10px;
+       
+    }
+    .footcopy p{
+        padding-left: 5px !important;
+    }
+    .footcopy{
+        margin-bottom: 40px;
+    }
+    .footer a:hover,
+    .footnote a:hover {
+    text-decoration: underline;
+}
+    
+}
