@@ -1,2 +1,0 @@
-# ubereats
-Uber Eats clone
