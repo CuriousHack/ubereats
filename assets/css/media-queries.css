@@ -4,7 +4,7 @@
         scroll-behavior: smooth;
     }
     header{
-        background-image: url(/assets/images/uberm.webp);
+        background-image: url(../images/uberm.webp);
     }
     .hamburger{
         height: 20px;
