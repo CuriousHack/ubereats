@@ -1,1 +1,1 @@
-Ubereats clone amde with HTML and CSS
+Ubereats clone made with HTML and CSS
